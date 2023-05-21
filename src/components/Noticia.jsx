@@ -2,15 +2,15 @@ import { CardMedia,Card, Grid, CardContent, Link, Typography, CardActions } from
 
 
 export const Noticia = ({noticia}) => {
-    const {urlToImage,url,title,description,source} = noticia
+    const {image,url,title,description,source} = noticia
   return (
     <Grid item md={6} lg={4}>
         <Card>
-            {urlToImage && (
+            {image && (
                 <CardMedia
                     component="img"
                     alt={`Imagen de la noticia ${title}`}
-                    image={urlToImage}
+                    image={image}
                     height={'250'}
                 ></CardMedia>
                 )}
