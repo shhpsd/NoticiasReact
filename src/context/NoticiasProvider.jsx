@@ -34,7 +34,6 @@ const NoticiasProvider = ({children}) =>{
 
             setNoticias(data.articles)
             setTotalNoticias(data.totalResults)
-            pagina = totalNoticias
         }
         consultarAPI()
     },[pagina])

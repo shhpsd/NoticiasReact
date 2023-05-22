@@ -6,11 +6,20 @@ import { NoticiasProvider } from './context/NoticiasProvider'
 
 function App() {
   return (
-    <>
     <NoticiasProvider>
       <Container>
         <header>
-          <Typography align='center' marginY={5} component='h1' variant='h1'>
+          <Typography align='center' 
+          
+            sx={{
+              fontSize: 50,
+            }}
+
+            md={{
+            fontSize: 100,
+            }}
+        
+        marginY={5} component='h1' variant='h1'>
             Buscador de noticias
           </Typography>
         </header>
@@ -26,8 +35,7 @@ function App() {
 
         <ListadoNoticias></ListadoNoticias>
       </Container>
-      </NoticiasProvider>
-    </>
+      </NoticiasProvider>  
   )
 }
 
