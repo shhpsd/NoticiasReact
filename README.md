@@ -1,3 +1,3 @@
 # NoticiasReact
 
-# Project https://buscador-de-bebidas-opal.vercel.app/
+# Project https://noticias-react-tau.vercel.app/
